@@ -1,0 +1,29 @@
+Tetris Dokumentacja:
+- Interfejs:
+	- Wskaźnik aktualnej ilości punktów DONE
+	- Wskaźnik aktualnego poziomu DONE
+	- Wskaźnik ilości linii które udało się "usunąć" DONE
+	- następny klocek DONE
+	- statystyki klocków (jakie klocki były i ile razy)
+	- Pauza pod jakimś przyciskiem (np.:"p") DONE
+		- Gdy Pauza nie widać ani klocków ani gry ani aktualnego klocka DONE
+- Gra
+	- Punkty 
+		- wyświetlające się punkty za "usunięcie" linii 
+			- gdy 4 linie to TETRIS 
+		- Hard Drop
+		- Combo (ciągłe usuwanie lini z klocka na klocek)
+	- Klocki
+		- 7 typów klocków (4 "kwadraty" w każdym) wybierane losowo DONE
+		- Rotacja klockami (górna i dolna strzałka lub (W S)) DONE
+		- Poruszanie się (lewa i prawa strzałka (lub A D)) DONE
+		- spadają szybciej gdy wyższy poziom
+		- "Hard drop" postawienie klocka od razu po wciśnięciu jakiegoś przycisku (np: spacja)
+- Koniec Gry
+	- Koniec gry gdy klocki dotkną "Sufitu" DONE
+	- Napis koniec gry z ilością linii, wynikiem i poziomem DONE
+
+Wyczyścić kod
+Dodać komentarze ułatwiające czytanie kodu
+
+zrobić drugą dokumentację z funkcjami które zaimplementowałem
