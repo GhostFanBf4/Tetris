@@ -1,12 +1,13 @@
-Tetris Dokumentacja:
+Pierwotna dokumentacja Tetris:
 - Interfejs:
-	- Wskaźnik aktualnej ilości punktów DONE
-	- Wskaźnik aktualnego poziomu DONE
-	- Wskaźnik ilości linii które udało się "usunąć" DONE
-	- następny klocek DONE
+	- Wskaźnik aktualnej ilości punktów
+	- Wskaźnik aktualnego poziomu
+	- Wskaźnik ilości linii które udało się "usunąć"
+	- aktualny klocek
+	- następny klocek
 	- statystyki klocków (jakie klocki były i ile razy)
-	- Pauza pod jakimś przyciskiem (np.:"p") DONE
-		- Gdy Pauza nie widać ani klocków ani gry ani aktualnego klocka DONE
+	- Pauza pod jakimś przyciskiem (np.:"p")
+		- Gdy Pauza nie widać ani klocków ani gry ani aktualnego klocka
 - Gra
 	- Punkty 
 		- wyświetlające się punkty za "usunięcie" linii 
@@ -14,16 +15,47 @@ Tetris Dokumentacja:
 		- Hard Drop
 		- Combo (ciągłe usuwanie lini z klocka na klocek)
 	- Klocki
-		- 7 typów klocków (4 "kwadraty" w każdym) wybierane losowo DONE
-		- Rotacja klockami (górna i dolna strzałka lub (W S)) DONE
-		- Poruszanie się (lewa i prawa strzałka (lub A D)) DONE
+		- 7 typów klocków (4 "kwadraty" w każdym) wybierane losowo
+		- Rotacja klockami (górna i dolna strzałka lub (W S))
+		- Poruszanie się (lewa i prawa strzałka (lub A D))
 		- spadają szybciej gdy wyższy poziom
 		- "Hard drop" postawienie klocka od razu po wciśnięciu jakiegoś przycisku (np: spacja)
 - Koniec Gry
-	- Koniec gry gdy klocki dotkną "Sufitu" DONE
-	- Napis koniec gry z ilością linii, wynikiem i poziomem DONE
+	- Koniec gry gdy klocki dotkną "Sufitu"
+	- Napis koniec gry z ilością linii i wynikiem
 
-Wyczyścić kod
-Dodać komentarze ułatwiające czytanie kodu
 
-zrobić drugą dokumentację z funkcjami które zaimplementowałem
+
+Zaktualizowana Dokumentacja tetris:
+- Interfejs:
+	- Wskaźnik aktualnej ilości punktów
+	- Wskaźnik aktualnego poziomu
+	- Wskaźnik ilości linii które udało się "usunąć"
+	- następny klocek
+	- statystyki klocków (jakie klocki były i ile razy)
+	- Pauza pod przyciskiem "p"
+		- Gdy Pauza nic nie widać
+	- Możliwość wyjścia pod przyciskiem "q"
+	- Okno z instrukcjami
+- Gra
+	- Punkty 
+		- Punkty liczone za usuniecie kilku linii jednoczesnie
+		- Punkty za usuniecie linii mnozone przez poziom trudnosci (szybsze spadanie klockow)
+	- Klocki
+		- 7 typów klocków (4 "kwadraty" w każdym) wybierane losowo
+		- Rotacja klockami (Górna strzałka)
+		- Przyśpieszanie klocka (Dolna strzałka)
+		- Poruszanie się (Lewa i prawa strzałka)
+		- spadają szybciej gdy wyższy poziom
+- Koniec Gry
+	- Koniec gry gdy klocki dotkną "Sufitu"
+	- Statystyki na koniec gry
+
+Dodatkowa użyta biblioteka (poza ncurses):
+<random> 
+
+Nie zaimplemetnowałem:
+- Aktualnego klocka (jest widoczny podczas spadania więc nie widziałem sensu dodawania nowego okna) 
+- Wyświetlających się punktów za usunięcie linii (i tak już dużo się dzieje na ekranie, zwłaszcza na wyższych poziomach. Uznałem, że by przeszkadzało)
+- "Hard Drop" (W zamian istnieje możliwość przyśpieszania sobie klocka)
+- Combo
