@@ -11,3 +11,5 @@ Below few screenshots how does it looks like
 ![image](https://github.com/GhostFanBf4/Tetris/assets/117520936/d919c3d0-0f63-419e-aa19-b7e683ee75f0)
 ![image](https://github.com/GhostFanBf4/Tetris/assets/117520936/06006905-1c7c-4354-acc7-790e2d6ca821)
 ![image](https://github.com/GhostFanBf4/Tetris/assets/117520936/b5359d17-1105-4b58-bad4-4d3253c05411)
+![image](https://github.com/GhostFanBf4/Tetris/assets/117520936/75c4fbe8-dfec-4913-8dee-25c605627980)
+![image](https://github.com/GhostFanBf4/Tetris/assets/117520936/7c76127d-1f89-4d47-aa92-67418cdd69ff)
